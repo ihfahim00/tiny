@@ -1,0 +1,171 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* header start*/
+header{
+ 	padding: 20px 0;
+ }
+ .menu ul li a{
+ 	text-align: right;
+ }
+ /* header end*/
+/* banner start */
+.banner{
+	padding-top: 10px;
+}
+.banner h2{
+	font-size: 28px;
+}
+.banner p.big{
+	font-size: 18px;
+ }
+ .banner-icon {
+    text-align: center;
+}
+.banner-icon i{
+    padding: 0 20px;
+}
+ /* banner end */
+ /* feature start */
+ .feature{
+ 	padding: 50px 0;
+ }
+ .f-content{
+ 	padding: 0;
+ }
+ .f-content h2{
+ 	font-size: 30px;
+ }
+ .f-content p.big{
+ 	font-size: 16px;
+ }
+ .f-item{
+ 	padding-top: 30px;
+ 	text-align: center;
+ }
+ .f-item-icon{}
+ .f-item-icon i{
+ 	font-size: 35px;
+ }
+ .f-item h3{
+ 	margin: 10px 0;
+ }
+ .f-item p.small{
+ 	color: #898989;
+ }
+ /* feature end */
+ /* newsletter start */
+ .newsletter{
+ 	padding: 50px 0;
+ }
+ .newsletter .content{
+ 	padding: 0;
+ }
+ .newsletter .content h2 {
+    font-size: 30px;
+}
+ .newsletter .content p.big{
+ 	font-size: 16px;
+ }
+ .for-form input {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center
+}
+.newsletter .social-icon{
+ 	padding-bottom: 0;
+ }
+ /* newsletter end */
+ /* footer start */
+ footer .address{
+ 	margin-bottom: 50px;
+ }
+ /* footer end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header start*/
+ .menu ul li a{
+ 	text-align: right;
+ }
+ /* header end*/
+ /* banner start */
+.banner{
+	padding-top: 10px;
+}
+ /* banner end */
+ /* feature start */
+ .feature {
+    padding: 70px 0 60px;
+}
+ .f-content{
+ 	padding: 0;
+ }
+ .f-item {
+    text-align: center;
+}
+.f-item h3 {
+    padding-top: 10px;
+}
+ /* feature end */
+ /* footer start */
+ /* footer end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start*/
+ .menu ul li a{
+ 	text-align: right;
+ }
+ /* header end*/
+
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* banner start */
+.banner-content{
+	padding-right: 56px;
+}
+.banner p.big{
+	padding: 20px 0 15px 0;
+ }
+ .banner p.small{
+ 	padding-bottom: 25px;
+ }
+/* banner end */
+/* feature start */
+ .f-item-icon i{
+ 	font-size: 40px;
+ }
+ .f-item h3{
+ 	font-size: 22px;
+ }
+ /* feature end */
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+/* banner start */
+.banner-content{
+	padding-right: 150px;
+}
+.banner p.big{
+	padding: 20px 0 15px 0;
+ }
+ .banner p.small{
+ 	padding-bottom: 25px;
+ }
+/* banner end */
+/* feature start */
+ .f-item-icon i{
+ 	font-size: 40px;
+ }
+ .f-item h3{
+ 	font-size: 22px;
+ }
+ /* feature end */
+}
